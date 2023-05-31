@@ -1,0 +1,55 @@
+header{
+    background-color: rgba(0, 0, 0, 0.89);
+    position: relative;
+    z-index: 2;
+    opacity: 85%;
+}
+
+
+body{
+    background: #8e9eab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+div.wrapper{
+    margin: 0 auto;
+    width: 78%;
+}
+
+#contenido{
+    background-color: lightgray;
+}
+
+
+#paises{
+    margin: 25px auto;
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+#paises td,th{
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+}
+
+#paises th{
+    border-style: none;
+    background-color: rgba(13,71,161,1);
+    color: white;
+}
+
+.card:hover{
+    transform: scale(1.10);
+}
+
+
+/*Aqui inicio todo*/
+
+
+body{
+    font-family: sans-serif;
+}
+
